@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/icon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/icon/site.webmanifest">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>Max</title>
+</head>
+<body class="bg-dark">
+
+<!--Header-->
+
+    <header class="text-light bg-dark bg-opacity-75 w-100 position-fixed z-1">
+        <div class="container">
+            <div class="row g-2 pt-2 pb-2 text-center">
+                <div class="col-7 col-md-2 col-lg-4 pt-1 text-start">
+                    <a href="#"><img src="./assets/images/logo.webp" alt="Logo Max"></a>
+                </div>
+                <div class="d-md-none col-3 text-end">
+                    <button type="button" class="btn btn-light"><strong>Sign up</strong></button>
+                </div>
+                <div class="d-md-none col-2">
+                    <button type="button" class="btn btn-secondary"><strong>Login</strong></button>
+                </div>
+                <div class="d-none d-md-block col-md-2 col-lg-1 pt-1">
+                    <a href="#" class="h5 text-light link-underline link-underline-opacity-0"><strong>Home</strong></a>
+                </div>
+                <div class="d-none d-md-block col-md-2 col-lg-1 pt-1">
+                    <a href="#" class="h5 text-light link-underline link-underline-opacity-0"><strong>Movies</strong></a>
+                </div>
+                <div class="d-none d-md-block col-md-2 col-lg-1 pt-1">
+                    <a href="#" class="h5 text-light link-underline link-underline-opacity-0"><strong>Series</strong></a>
+                </div>
+                <div class="d-none d-md-block col-md-1 col-lg-1 pt-1">
+                    <a href="#" class="h5 text-light link-underline link-underline-opacity-0"><strong>Sports</strong></a>
+                </div>
+                <div class="d-none d-md-block col-sm-2 col-md-2 col-lg-3 text-end">
+                    <button type="button" class="btn btn-light"><strong>Sign up</strong></button>
+                </div>
+                <div class="d-none d-md-block col-sm-2 col-md-1 col-lg-1 text-end">
+                    <button type="button" class="btn btn-secondary"><strong>Login</strong></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!--Carousel-->
+
+    <div class="container-fluid p-0">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./assets/images/slide1.webp" alt="Game of Thrones">
+                    <div class="carousel-caption text-start mb-md-3 pb-md-3 mb-xl-5 pb-xl-5">
+                        <h1>Game Of Thrones</h1>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./assets/images/slide2.webp" alt="Scars Of Beauty">
+                    <div class="carousel-caption text-start mb-md-3 pb-md-3 mb-xl-5 pb-xl-5">
+                        <h1>Scars Of Beauty</h1>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./assets/images/slide3.webp" alt="Knights Of The Zodiac">
+                    <div class="carousel-caption text-start mb-md-3 pb-md-3 mb-xl-5 pb-xl-5">
+                        <h1>Knights Of The Zodiac</h1>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./assets/images/slide4.webp" alt="The Last Of Us">
+                    <div class="carousel-caption text-start mb-md-3 pb-md-3 mb-xl-5 pb-xl-5">
+                        <h1>The Last Of Us</h1>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./assets/images/slide5.webp" alt="The Fall Of Diddy">
+                    <div class="carousel-caption text-start mb-md-3 pb-md-3 mb-xl-5 pb-xl-5">
+                        <h1>The Fall Of Diddy</h1>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./assets/images/slide6.webp" alt="The White Lotus">
+                    <div class="carousel-caption text-start mb-md-3 pb-md-3 mb-xl-5 pb-xl-5">
+                        <h1>The White Lotus</h1>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Cards-->
+
+    <div class="container p-4">
+        <div class="text-light">
+            <h1>
+                Catalog
+            </h1>
+        </div>
+        <div class="row g-5 pt-3">
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./assets/images/card1.webp" alt="Harry Potter and The Philosopher's Stone Poster">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./assets/images/card2.webp" alt="Venom - The Last Dance Poster">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./assets/images/card3.webp" alt="Interestellar Poster">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./assets/images/card4.webp" alt="The Big Bang Theory Poster">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./assets/images/card5.webp" alt="Supernatural Poster">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4">
+                <a href="#" class="card border border-2">
+                    <img src="./assets/images/card6.webp" alt="The Blindside Poster">
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!--Footer-->
+
+    <footer>
+        <div class="border-top text-light text-center mt-4 pt-3">
+            <div class="container">
+                <p>
+                    Projeto criado apenas para fins educacionais. Todo o conteúdo, incluindo textos e imagens, é fictício e foi utilizado sob licença livre.<br>
+                    Nenhuma associação com produtos ou marcas reais é pretendida.
+                    <strong>
+                        <br>&lt;/> by <a class="text-light" href="https://github.com/carolmoreiradev?tab=repositories" title="Meu GitHub">Carolina Moreira</a>
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
